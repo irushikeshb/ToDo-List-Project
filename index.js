@@ -6,7 +6,7 @@ class item{
     constructor(itemName){
         this.createDiv(itemName);
     }
-
+    
     // Create Todo Div
     createDiv(itemName){
         let input = document.createElement('input');

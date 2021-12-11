@@ -1,0 +1,206 @@
+@media (min-width: 0px) and (max-width: 320px){
+    body{
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        nav{
+            font-size: 25px;
+            padding: 5px;
+        }
+        h1{
+            font-size: 35px;
+            font-weight: 600;
+        }
+        .input_container{
+            position: absolute;
+            width: 90% !important;
+            left: 5%;
+            display: flex;
+            justify-content: space-between;
+            .input{
+                width: 180px !important;
+                font-size: 20px;
+            }
+
+            .addButton{
+                width: 60px !important;
+                // margin-left: 30px;
+            }
+        }
+        .data_container{
+            position: absolute;
+            left: 5%;
+            width: 90% !important;
+            display: flex;
+            justify-content: space-between;
+            .item{
+                .item-input{
+                    width: 170px !important;
+                    font-size: 20px;
+                }
+            }
+            .editButton{
+                width: 40px;
+            }
+            .removeButton{
+                width: 55px;
+            }
+
+        }
+    }
+}
+
+@media (min-width: 321px) and (max-width: 376px){
+
+    body{
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        nav{
+            font-size: 30px !important;
+            padding: 5px;
+        }
+        h1{
+            font-size: 38px;
+        }
+        .input_container{
+            position: absolute;
+            width: 90%;
+            left: 4%;
+            .input{
+                width: 240px !important;
+                font-size: 22px;
+            }
+            .addButton{
+                width: 65px !important;
+            }
+        }
+        .data_container{
+            position: absolute;
+            left: 4%;
+            width: 95% !important;
+            .item{
+                .item-input{
+                    font-size: 22px;
+                }
+            }
+            .editButton{
+                width: 40px;
+            }
+            .removeButton{
+                width: 55px;
+            }
+        }
+    }
+}
+@media (min-width: 377px) and (max-width: 426px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        nav{
+            font-size: 30px;
+            padding: 5px;
+        }
+        h1{
+            font-size: px;
+        }
+        .input_container{
+            position: absolute;
+            width: 94%;
+            left: 3%;
+            .input{
+                // width: 550px !important;
+                font-size: 25px;
+            }
+            .addButton{
+                width: 67px;
+            }
+        }
+        .data_container{
+            position: absolute;
+            left: 5%;
+            width: 90% !important;
+            .item{
+                .item-input{
+                    font-size: 21px;
+                }
+            }
+            .editButton{
+                width: 40px;
+            }
+            .removeButton{
+                width: 55px;
+            }
+        }
+    }
+}
+
+@media (min-width: 427px) and (max-width: 769px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        nav{
+            font-size: 30px;
+        }
+        .input_container{
+            width: 90%;
+            left: 7%;
+            .input{
+                width: 590px !important;
+            }
+        }
+        .data_container{
+            width: 90%;
+            left: 7%;
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    body{
+        height: 100vh;
+        nav{
+            font-size: 25px;
+            font-weight: 600;
+        }
+        h1{
+            font-size: 45px;
+            font-weight: 700;
+        }
+        .input_container{
+            position: absolute;
+            width: 100%;
+            left: 2%;
+            .input{
+                width: 550px !important;
+                font-size: 20px !important;
+            }
+            .addButton{
+                width: auto;
+                font-size: 16px !important;
+                margin-left: 40px;
+            }
+        }
+        .data_container{
+            position: absolute;
+            width: 72%;
+            left: 15%;
+            .input{
+                // width: 400px !important;
+                font-size: 20px !important;
+            }
+            .editButton{
+                width: 65px;
+                font-size: 16px;
+            }
+            .removeButton{
+                width: 70px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
